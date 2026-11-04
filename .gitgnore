@@ -1,0 +1,83 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Training outputs
+checkpoints/
+weights/
+models/
+runs/
+logs/
+lightning_logs/
+
+# Dataset files
+data/
+datasets/
+dataset/
+train/
+test/
+validation/
+val/
+*.tif
+*.tiff
+*.fits
+*.fit
+*.fts
+
+# Generated predictions and masks
+predictions/
+outputs/
+submission/
+submissions/
+*.rle
+*.npy
+*.npz
+
+# Generated analysis files
+ablation_study.csv
+postproc.json
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Kaggle credentials and configuration
+kaggle.json
+.kaggle/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+desktop.ini
+.DS_Store
